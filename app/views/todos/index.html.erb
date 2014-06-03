@@ -8,7 +8,7 @@
       <p>All your todos here</p>
 
       <%= form_for @new_todo, :url => {:action => "add"} do |f| %>
-          <%= f.text_field :todo_item %>
+          <%= f.text_field :todo_item, :autofocus=>true %>
           <%= f.submit "Add todo", class: "btn btn-primary" %>
       <% end %>
 
