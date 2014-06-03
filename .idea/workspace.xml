@@ -48,7 +48,10 @@
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
-              <folding />
+              <folding>
+                <marker date="1401780328000" expanded="true" signature="850:961" placeholder="do ... end" />
+                <marker date="1401780328000" expanded="true" signature="877:956" placeholder="do ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,7 +77,7 @@
       <file leaf-file-name="todos_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.5536332" vertical-offset="0" max-vertical-offset="867">
+            <state line="33" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.57093424" vertical-offset="0" max-vertical-offset="867">
               <folding />
             </state>
           </provider>
@@ -682,7 +685,10 @@
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="25" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435">
-          <folding />
+          <folding>
+            <marker date="1401780328000" expanded="true" signature="850:961" placeholder="do ... end" />
+            <marker date="1401780328000" expanded="true" signature="877:956" placeholder="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="711" selection-end="711" vertical-scroll-proportion="0.5536332" vertical-offset="0" max-vertical-offset="867">
+        <state line="33" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.57093424" vertical-offset="0" max-vertical-offset="867">
           <folding />
         </state>
       </provider>

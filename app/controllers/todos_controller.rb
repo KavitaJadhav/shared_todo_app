@@ -6,7 +6,9 @@ class TodosController < ApplicationController
   end
 
   def delete
-    Todo.last.delete
+    todo = Todo.last
+    todo.delete
+    flash[:success] = "'#{todo[:todo_item]}' task removed successfully"
     redirect_to index_path
   end
 
@@ -25,7 +27,6 @@ class TodosController < ApplicationController
       todo_id = check
       t = Todo.find_by_id(todo_id)
       t.update_attribute(:completed, !t.completed)
-      #t.update_attribute(:completed, true)
     end
     redirect_to index_path
   end
