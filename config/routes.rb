@@ -1,11 +1,9 @@
 SharedTodoApp::Application.routes.draw do
-  #get "todos/index"
 
-  #get "/todos/delete"
   match "todos/index" => "todos#index", :as => :index, via: [:get, :post]
   match "todos/add" => "todos#add", :via => :post
-  match "todos/delete" => "todos#delete", :as => :delete, via: [:get, :post]
-  match 'todos/complete' => 'todos#complete', :via => :post
+  match 'todos/perform' => 'todos#perform', :via => :post
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

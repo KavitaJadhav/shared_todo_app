@@ -27,7 +27,7 @@
       <% end %>
 
       <div class="well">
-        <%= form_tag("/todos/complete/", :method => "post") do %>
+        <%= form_tag("perform", :method => "post") do %>
             <ul style="list-style-type:none;">
               <% @todo_items.each do |t| %>
                   <% if t.completed == true %>
@@ -39,9 +39,9 @@
               <% end %>
             </ul>
             <%= submit_tag("Toggle Todos", :class => "btn btn-success") %>
+            <%= submit_tag("Delete", :class => "btn btn-success") %>
         <% end %>
       </div>
-      <%= link_to "Delete last todo", delete_path %>
     </div>
   </div>
 </div>

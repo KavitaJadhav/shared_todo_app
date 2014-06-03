@@ -5,12 +5,12 @@ class TodosController < ApplicationController
     @new_todo = Todo.new
   end
 
-  def delete
-    todo = Todo.last
-    todo.delete
-    flash[:success] = "'#{todo[:todo_item]}' task removed successfully"
-    redirect_to index_path
-  end
+  #def delete
+  #  todo = Todo.last
+  #  todo.delete
+  #  flash[:success] = "'#{todo[:todo_item]}' task removed successfully"
+  #  redirect_to index_path
+  #end
 
   def add
     todo = Todo.create(:todo_item => params[:todo][:todo_item])
@@ -22,12 +22,31 @@ class TodosController < ApplicationController
     redirect_to index_path
   end
 
-  def complete
+  def delete params
+    params[:todos_checkbox].each do |check|
+      todo_id = check
+      Todo.find_by_id(todo_id).delete
+    end
+    flash[:success] = "#{params[:todos_checkbox].count} task removed successfully"
+    redirect_to index_path
+  end
+
+
+  def complete params
     params[:todos_checkbox].each do |check|
       todo_id = check
       t = Todo.find_by_id(todo_id)
       t.update_attribute(:completed, !t.completed)
     end
+    flash[:success] = "#{params[:todos_checkbox].count} task toggled successfully"
     redirect_to index_path
+  end
+
+  def perform
+    if params[:commit] == "Delete"
+      delete params
+    else
+      complete params
+    end
   end
 end
