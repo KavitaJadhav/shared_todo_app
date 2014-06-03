@@ -17,7 +17,7 @@ class TodosController < ApplicationController
     unless todo.valid?
       flash[:error] = todo.errors.full_messages.join("<br>").html_safe
     else
-      flash[:success] = "Todo added successfully"
+      flash[:success] = "#{todo[:todo_item]}' task added successfully"
     end
     redirect_to index_path
   end
@@ -31,7 +31,6 @@ class TodosController < ApplicationController
     redirect_to index_path
   end
 
-
   def complete params
     params[:todos_checkbox].each do |check|
       todo_id = check
@@ -43,10 +42,15 @@ class TodosController < ApplicationController
   end
 
   def perform
-    if params[:commit] == "Delete"
-      delete params
+    if params[:todos_checkbox]
+      if params[:commit] == "Delete"
+        delete params
+      else
+        complete params
+      end
     else
-      complete params
+      flash[:error] = "Please select atleast one task to #{params[:commit]}"
+      redirect_to index_path
     end
   end
 end
