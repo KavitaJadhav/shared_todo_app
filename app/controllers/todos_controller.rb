@@ -7,6 +7,7 @@ class TodosController < ApplicationController
 
   def delete
     Todo.last.delete
+    redirect_to index_path
   end
 
   def add
@@ -26,7 +27,6 @@ class TodosController < ApplicationController
       t.update_attribute(:completed, !t.completed)
       #t.update_attribute(:completed, true)
     end
-    redirect_to :action => 'index'
+    redirect_to index_path
   end
-
 end
