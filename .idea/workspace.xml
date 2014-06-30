@@ -23,28 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="todos_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="10" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -53,34 +35,34 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="5" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todo_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todos_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todos_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/todos_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="60" selection-start="727" selection-end="727" vertical-scroll-proportion="0.38590604" vertical-offset="0" max-vertical-offset="1065">
+            <state line="41" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="3" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="34" column="0" selection-start="894" selection-end="894" vertical-scroll-proportion="0.5704698" vertical-offset="0" max-vertical-offset="894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="29" selection-start="683" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -101,17 +83,18 @@
         <option value="$PROJECT_DIR$/app/models/todo.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140603072435_add_completed_to_todo.rb" />
         <option value="$PROJECT_DIR$/app/views/todos/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/spec/models/todo_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/todos_controller.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/todos_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
+    <option name="width" value="1920" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -140,6 +123,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,8 +227,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,7 +447,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="969" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="969" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -533,23 +516,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="195">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="195" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="17" column="49" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
@@ -568,9 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="30" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
+        <state line="21" column="30" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
@@ -589,9 +564,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="47" column="0" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
@@ -646,9 +619,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p545@global/gems/railties-4.0.4/lib/rails/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="8" selection-start="16872" selection-end="16872" vertical-scroll-proportion="0.33333334" vertical-offset="6347" max-vertical-offset="10320">
-          <folding />
-        </state>
+        <state line="443" column="8" selection-start="16872" selection-end="16872" vertical-scroll-proportion="0.33333334" vertical-offset="6347" max-vertical-offset="10320" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
@@ -697,14 +668,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/todos/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="583" selection-end="583" vertical-scroll-proportion="0.29310346" vertical-offset="0" max-vertical-offset="870">
+        <state line="17" column="49" selection-start="583" selection-end="583" vertical-scroll-proportion="0.29310346" vertical-offset="0" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="18" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="3" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.06711409" vertical-offset="0" max-vertical-offset="894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
@@ -716,37 +702,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/todo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/todo_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="3" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/todos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/todos_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="60" selection-start="727" selection-end="727" vertical-scroll-proportion="0.38590604" vertical-offset="0" max-vertical-offset="1065">
+        <state line="41" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="683" selection-end="701" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="894" selection-end="894" vertical-scroll-proportion="0.5704698" vertical-offset="0" max-vertical-offset="894">
           <folding />
         </state>
       </provider>

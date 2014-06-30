@@ -7,6 +7,11 @@ class TodosController < ApplicationController
 
 
   def add
+
+
+    Rails.logger.info "------------------"
+    Rails.logger.info params
+
     todo = Todo.create(:todo_item => params[:todo][:todo_item])
     unless todo.valid?
       flash[:error] = todo.errors.full_messages.join("<br>").html_safe
