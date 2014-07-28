@@ -7,39 +7,43 @@
       <hr>
       <p>All your todos here</p>
 
-      <%= form_for @new_todo, :url => {:action => "add"} do |f| %>
-          <%= f.text_field :todo_item, :autofocus=>true %>
-          <%= f.submit "Add todo", class: "btn btn-primary" %>
-      <% end %>
-
-      <% if flash[:error] %>
-          <div class="alert alert-error">
-            <button type="button" class="close" data-dismiss="alert">×</button>
-            <strong><%= flash[:error] %></strong>
-          </div>
-      <% end %>
-
-      <% if flash[:success] %>
-          <div class="alert alert-success">
-            <button type="button" class="close" data-dismiss="alert">×</button>
-            <strong><%= flash[:success] %></strong>
-          </div>
-      <% end %>
-
       <div class="well">
-        <%= form_tag("perform", :method => "post") do %>
-            <ul style="list-style-type:none;">
-              <% @todo_items.each do |t| %>
-                  <% if t.completed == true %>
-                      <li style="color:grey;"> <%= check_box_tag "todos_checkbox[]", t.id %>
-                        <strike><%= t.todo_item %></strike></li>
-                  <% else %>
-                      <li> <%= check_box_tag "todos_checkbox[]", t.id %> <%= t.todo_item %>  </li>
+        <%= form_for @new_todo, :url => {:action => "add"} do |f| %>
+            <%= f.text_field :todo_item, :autofocus => true %>
+            <%= f.submit "Add todo", class: "btn btn-primary" %>
+        <% end %>
+
+        <% if flash[:error] %>
+            <div class="alert alert-error">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <strong><%= flash[:error] %></strong>
+            </div>
+        <% end %>
+
+        <% if flash[:success] %>
+            <div class="alert alert-success">
+              <button type="button" class="close" data-dismiss="alert">×</button>
+              <strong><%= flash[:success] %></strong>
+            </div>
+        <% end %>
+
+
+        <% @todo_items.each do |key, values| %>
+                  <h3><%= key %></h3>
+            <%= form_tag("perform", :method => "post") do %>
+                <ul style="list-style-type:none;">
+                  <% values.each do |value| %>
+                      <% if value.completed == true %>
+                          <li style="color:grey;"> <%= check_box_tag "todos_checkbox[]", value.id %>
+                            <strike><%= value.todo_item %></strike></li>
+                      <% else %>
+                          <li> <%= check_box_tag "todos_checkbox[]", value.id %> <%= value.todo_item %>  </li>
+                      <% end %>
                   <% end %>
-              <% end %>
-            </ul>
-            <%= submit_tag("Toggle Todos", :class => "btn btn-success") %>
-            <%= submit_tag("Delete", :class => "btn btn-success") %>
+                </ul>
+                <%= submit_tag("Toggle Todos", :class => "btn btn-success") %>
+                <%= submit_tag("Delete", :class => "btn btn-success") %>
+            <% end %>
         <% end %>
       </div>
     </div>

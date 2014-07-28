@@ -1,16 +1,11 @@
 class TodosController < ApplicationController
 
   def index
-    @todo_items = Todo.all
+    @todo_items = Todo.all.group_by(&:related_to)
     @new_todo = Todo.new
   end
 
-
   def add
-
-
-    Rails.logger.info "------------------"
-    Rails.logger.info params
 
     todo = Todo.create(:todo_item => params[:todo][:todo_item])
     unless todo.valid?
